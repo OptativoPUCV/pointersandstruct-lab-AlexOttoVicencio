@@ -37,11 +37,12 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
- int i;
+ int i,j,restar=n-m;
  i=sumaN(a,n);
- printf("i es %d\n",i);
- printf("n es %d\n",n);
- printf("m es %d\n",m);
+ for(j=0;j<restar;j++){
+   i=i-a[j];
+ }
+ *suma=i;
 }
 
 /*
