@@ -60,11 +60,14 @@ typedef struct {
 
 
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-  Persona A;
+  Persona A,*B;
+  
   strcpy(A.nombre,nombre);
-  printf("letre %c",A.nombre[1]);
+  strcpy(A.rut,rut);
+  A.edad=edad;
+  B=&A;
 
-   return NULL;
+   return (B);
 }
 
 /*
