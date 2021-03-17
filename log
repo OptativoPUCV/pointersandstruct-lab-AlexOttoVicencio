@@ -52,3 +52,9 @@ Wed Mar 17 21:21:20 UTC 2021:
  tests:  3|4
 total_score: 30/70
 babf776
+Wed Mar 17 21:21:56 UTC 2021: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  3|4
+total_score: 30/70
+19c99c9
