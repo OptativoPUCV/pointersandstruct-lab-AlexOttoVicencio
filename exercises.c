@@ -94,7 +94,7 @@ Vector * crearVector(int n) {
     B[i].capacidad=n;
   }
    return B;
-  // free(B);
+    free(B);
    
 }
 
