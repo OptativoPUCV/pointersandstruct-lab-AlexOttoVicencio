@@ -93,7 +93,7 @@ Vector * crearVector(int n) {
     B[i].datos[i]=0;
     B[i].capacidad=n;
   }
-   return NULL;
+   return B;
   // free(B);
    
 }
