@@ -125,7 +125,9 @@ Función que suma los vectores `a` y `b` y
 actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
-  printf("vale esto %ls",a->datos);
+  int z=0;
+  z=a->capacidad;
+  printf("vale esto %d",z);
 
 
    
