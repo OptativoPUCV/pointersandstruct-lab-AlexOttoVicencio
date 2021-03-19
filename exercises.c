@@ -104,9 +104,7 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) { 
-  v=(Vector*) malloc(i+1*sizeof(Vector));
-    v[i].capacidad=valor;
-                                       
+              
 }
 /*
 Ejercicio 6.
