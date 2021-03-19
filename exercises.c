@@ -128,7 +128,7 @@ void sumaV(Vector * a, Vector * b, Vector * c) {
   int xd;
   
   xd=*(a->datos)+*(b->datos);
-  *(c->datos)=*(a->datos)+*(b->datos);
+  (c->capacidad)=*(a->datos)+*(b->datos);
   printf("la suma es %d\n",xd);
 
 
