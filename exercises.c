@@ -106,6 +106,7 @@ la cual asigna el valor a la posición i del vector v.
 void asignarValor(Vector * v, int i, int valor) { 
     v[i].capacidad=valor;
     printf("el valor es %d\n",v[i].capacidad);
+
 }
 /*
 Ejercicio 6.
@@ -122,7 +123,7 @@ Función que suma los vectores `a` y `b` y
 actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
-   
+   c->capacidad=a->capacidad;
 }
 
 /*
