@@ -88,7 +88,7 @@ Vector * crearVector(int n) {
   Vector *B;
   int i;
   B=(Vector*) malloc(sizeof(Vector)*n);
-  B->datos=malloc(3*sizeof(int));
+
   for(i=0;i<n;i++){
     B[i].datos=malloc(n*sizeof(int));
     B[i].datos[i]=0;
