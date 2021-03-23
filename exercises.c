@@ -146,7 +146,7 @@ int suma;
 suma=a1+a2+b1+b2;
 printf("la suma es %d \n",suma);
 c->datos=malloc(sizeof(int)*2);
-c->datos[0]=a1+a2;
-c->datos[1]=b1+b2;
+c->datos[0]=a1+a2+b1+b2;
+c->datos[1]=a1+a2+b1+b2;
 
 }
