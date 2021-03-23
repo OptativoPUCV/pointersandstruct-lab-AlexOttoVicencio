@@ -88,7 +88,6 @@ Vector * crearVector(int n) {
   Vector *B;
   int i;
   B=(Vector*) malloc(sizeof(Vector)*n);
-
   for(i=0;i<n;i++){
     B[i].datos=malloc(n*sizeof(int));
     B[i].datos[i]=0;
@@ -142,6 +141,8 @@ Use las operaciones implementadas de vectores para
 sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
-
+int valor=a1+a2+b1+b2;
+c->datos=malloc(sizeof(int));
+asignarValor(c,0,valor);
 
 }
